@@ -1,6 +1,5 @@
-//criar uma função que chama critografia
  function criptografarTexto() {
-    const inputText = document.getElementById('input_text').ariaValueMax;
+    const inputText = document.getElementById('input_text').value;
     const resultText = document.getElementById('result_text');
 
     if (inputText.trim() === "") {
@@ -18,7 +17,7 @@
     resultText.style.display = 'block';
  }
 function descriptografarTexto() {
-    const inputText = document.getElementById('input_text').ariaValue;
+    const inputText = document.getElementById('input_text').value;
     const resultText = document.getElementById('result_text');
 
     if (inputText.trim() === ""){
